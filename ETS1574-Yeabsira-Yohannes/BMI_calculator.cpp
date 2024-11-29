@@ -1,15 +1,17 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
-    char user;
-    do{
     double weight, height, bmi;
-    cout<<"enter the weight:";
+    int counter;
+    cout<<"enter number of people to calculate their bmi:";
+    cin>>counter;
+
+    for(int i=1; i<=counter; i++){
+    cout<<"enter the weight in kg for person:"<< i <<":";
     cin>>weight;
 
-    cout<<"enter the height:";
+    cout<<"enter the height in meter for person:"<< i <<":";
     cin>>height;
 
     bmi=weight/(height*height);
@@ -27,7 +29,7 @@ int main() {
     } else {
         cout<<"obesity";
     }
-
+    }
     return 0;
 
 }
