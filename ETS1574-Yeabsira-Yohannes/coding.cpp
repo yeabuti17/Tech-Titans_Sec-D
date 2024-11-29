@@ -4,6 +4,8 @@ BMI-calculator
 using namespace std;
 
 int main() {
+    char user;
+    do{
     double weight, height, bmi;
     cout<<"enter the weight:";
     cin>>weight;
