@@ -1,6 +1,5 @@
 ## Problem Analysis
-The program calculates the time required to transmit a file over a network given a fixed transmission rate of 960 bytes per second. The result is expressed in days, hours, minutes, and seconds.
-  ### Input
+ ### Input
    - file_size: The size of the file in bytes (a positive number).
    
    
