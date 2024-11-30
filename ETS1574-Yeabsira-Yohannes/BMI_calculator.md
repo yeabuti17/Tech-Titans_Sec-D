@@ -33,8 +33,10 @@ step 3: For each person from 1 to num:
                    step 3.5.4: If BMI ≥ 30, display "You are obese!"
 step 4: End.
 
-# flowchart TD
+# BMI Calculation and Evaluation Flowchart
+
 ```mermaid
+flowchart TD
     Start([Start]) --> InputData[/Read the number of persons as num/]
     InputData --> InitializeCounter[Declare and initialize counter i = 1 ]
     InitializeCounter --> ReadData[/Read weight and height/]
@@ -50,23 +52,6 @@ step 4: End.
     IncrementCounter --> CheckCounter{Is i <= num?}
     CheckCounter -->|Yes| ReadData
     CheckCounter -->|No| End([End])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
