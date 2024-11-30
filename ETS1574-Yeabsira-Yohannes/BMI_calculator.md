@@ -35,27 +35,30 @@ step 4: End.
 
 
 # BMI Calculation and Evaluation Flowchart
-### pseudocode
-     1.start the program.
-     2.read the number of person as num.
-     3.declare and initalize the counter to 1(i=1).
-     4.read the the weight and height.
-     5.calculate the BMI as BMI= weight/(height*height).
-     6.check the BMI,
-        6.1 if the BMI is b/n 18.5 and 24.9(BMI>=18.5 and BMI<=24.9)
-            print BMI and "normal".
-            go to step 7.
-        6.2 if the BMI is greater than 25(BMI>25)
-            print BMI and "overweight".
-            go to step 7.
-        6.3 else 
-            print BMI and "underweight".
-            go to step 7.
-     7.increment the counter (i++)       
-     8.check wether the counter is less than or equals to num     
-        8.1 if i<=num,
-            go to step 4.
-    9.end the program.
+flowchart TD
+    id1([Start]) --> id2[/Input: Number of people for BMI calculation/]
+    id2 --> id3{Counter <= num}
+    id3 --True--> id4["Initialize Person: Counter"]
+    id4 --> id5[/Input: Weight in kilograms/]
+    id5 --> id6[/Input: Height in meters/]
+    id6 --> id7["BMI = Weight / (Height * Height)"]
+    id7 --> id8[/Output: BMI/]
+    id8 --> id9{BMI < 18.5}
+    id9 --True--> id10["Output: Underweight"]
+    id9 --False--> id11{BMI >= 18.5 && BMI <= 24.9}
+    id11 --True--> id12["Output: Normal weight"]
+    id11 --False--> id13{BMI >= 25 && BMI < 29.9}
+    id13 --True--> id14["Output: Overweight"]
+    id13 --False--> id15{BMI >= 30}
+    id15 --True--> id16["Output: Obese"]
+    id10 --> id17["Increment Counter"]
+    id12 --> id17
+    id14 --> id17
+    id16 --> id17
+    id17 --> id3
+    id3 --False--> id18([End])
+
+
 
 
 
