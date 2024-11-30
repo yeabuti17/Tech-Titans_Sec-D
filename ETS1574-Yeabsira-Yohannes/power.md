@@ -7,7 +7,7 @@
         1.The value of x raised to the power y.
 
        ###  oprations:
-        1.declare a variable to store basa , exponent and the power.
+        1.declare a variable to store base , exponent and the power.
         2.read the inputs.
         3.calculate the power as **power = base^exponent.**
         4.print the power.
