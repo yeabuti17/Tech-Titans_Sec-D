@@ -33,30 +33,24 @@ step 3: For each person from 1 to num:
                    step 3.5.4: If BMI ≥ 30, display "You are obese!"
 step 4: End.
 
+# flowchart TD
+    Start([Start]) --> InputData[/Read the number of persons as num/]
+    InputData --> InitializeCounter[Declare and initialize counter i = 1 ]
+    InitializeCounter --> ReadData[/Read weight and height/]
+    ReadData --> CalculateBMI[Calculate BMI = weight / height * height ]
+    CalculateBMI --> CheckBMI{Is BMI between 18.5 and 24.9?}
+    CheckBMI -->|Yes| NormalBMI[/Print BMI and "Normal"/]
+    CheckBMI -->|No| CheckOverweight{Is BMI greater than 25?}
+    CheckOverweight -->|Yes| OverweightBMI[/Print BMI and "Overweight"/]
+    CheckOverweight -->|No| UnderweightBMI[/Print BMI and "Underweight"/]
+    NormalBMI --> IncrementCounter[Increment counter i++ ]
+    OverweightBMI --> IncrementCounter
+    UnderweightBMI --> IncrementCounter
+    IncrementCounter --> CheckCounter{Is i <= num?}
+    CheckCounter -->|Yes| ReadData
+    CheckCounter -->|No| End([End])
 
-# BMI Calculation and Evaluation Flowchart
-flowchart TD
-    id1([Start]) --> id2[/Input: Number of people for BMI calculation/]
-    id2 --> id3{Counter <= num}
-    id3 --True--> id4["Initialize Person: Counter"]
-    id4 --> id5[/Input: Weight in kilograms/]
-    id5 --> id6[/Input: Height in meters/]
-    id6 --> id7["BMI = Weight / (Height * Height)"]
-    id7 --> id8[/Output: BMI/]
-    id8 --> id9{BMI < 18.5}
-    id9 --True--> id10["Output: Underweight"]
-    id9 --False--> id11{BMI >= 18.5 && BMI <= 24.9}
-    id11 --True--> id12["Output: Normal weight"]
-    id11 --False--> id13{BMI >= 25 && BMI < 29.9}
-    id13 --True--> id14["Output: Overweight"]
-    id13 --False--> id15{BMI >= 30}
-    id15 --True--> id16["Output: Obese"]
-    id10 --> id17["Increment Counter"]
-    id12 --> id17
-    id14 --> id17
-    id16 --> id17
-    id17 --> id3
-    id3 --False--> id18([End])
+
 
 
 
