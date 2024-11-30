@@ -1,10 +1,10 @@
    # Problem Analysis
 The program calculates the time required to transmit a file over a network given a fixed transmission rate of 960 bytes per second. The result is expressed in days, hours, minutes, and seconds.
-1. Input
+## Input
    file_size: The size of the file in bytes (a positive number).
    Validation: The file size must be greater than zero. If not, an error message is displayed, and the program terminates.
    
-2. Opration
+## Opration
    -Calculate Total Transmission Time
    -Total Time in Seconds: total_time_seconds= file size / transmission_rate
    -Conversion to Days, Hours, Minutes, and Seconds:
@@ -19,7 +19,7 @@ The program calculates the time required to transmit a file over a network given
    -minutes = remaining_seconds / 60
    -​Seconds: The final remaining seconds:
    -seconds = remaining_seconds % 60
-3. output
+## output
    -time taken to transfer file in days, hours, minutes and seconds.
 
 
