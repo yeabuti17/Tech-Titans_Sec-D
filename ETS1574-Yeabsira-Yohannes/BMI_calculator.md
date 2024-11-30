@@ -1,4 +1,4 @@
--Problem analysis
+# Problem analysis
 calculate the Body Mass Index (BMI) for multiple people, determine their weight category, and provide feedback based on their BMI.
 1. Inputs:
 The number of people whose BMI needs to be calculated .
