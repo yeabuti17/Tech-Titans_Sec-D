@@ -34,6 +34,7 @@ step 3: For each person from 1 to num:
 step 4: End.
 
 # flowchart TD
+```mermaid
     Start([Start]) --> InputData[/Read the number of persons as num/]
     InputData --> InitializeCounter[Declare and initialize counter i = 1 ]
     InitializeCounter --> ReadData[/Read weight and height/]
