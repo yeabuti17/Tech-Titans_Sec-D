@@ -47,7 +47,7 @@ flowchart TD
     id8 --> id9{BMI < 18.5}
     id9 --True--> id10["Output: Underweight"]
     id9 --False--> id11{BMI >= 18.5 && BMI <= 24.9}
-    id11 --True--> id12["Output: Healthy weight"]
+    id11 --True--> id12["Output: normal weight"]
     id11 --False--> id13{BMI >= 25 && BMI < 29.9}
     id13 --True--> id14["Output: Overweight"]
     id13 --False--> id15{BMI >= 30}
