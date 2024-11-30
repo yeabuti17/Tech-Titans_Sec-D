@@ -21,19 +21,28 @@ calculate the Body Mass Index (BMI) for multiple people, determine their weight 
 
 ## algorithm design
          ### pseudocode
-step 1: Start.
-step 2: Read the number of people (num).
-step 3: Declare the counter to 1 to num:
-step 4: Input their weight in kilograms (weight) and height in meters (height)..
-step 5: Calculate BMI : BMI=weight/(height*height).
-step 6: Output the calculated BMI and Determine the weight category:
-             step 6.1: If BMI < 18.5, display "You are underweight!"
-             step 6.2: If 18.5 ≤ BMI ≤ 24.9, display "You are in normal weight!"
-             step 6.3: If 25 ≤ BMI < 29.9, display "You are overweight!"
-             step 6.4: If BMI ≥ 30, display "You are obese!"
-
-                   
-step 4: End.
+         1.start
+         2.read the number of people as num.
+         3.declare the counter to 1(i=1).
+         4.read their weight in kilograms and height in meters.
+         5.calculate the BMI: BMI= weight/(height*height).
+         6.check the BMI,
+            6.1 If BMI < 18.5, display "You are underweight!"
+                go to step 7.
+            6.2 If 18.5 ≤ BMI ≤ 24.9, display "You are in normal weight!"
+                go to step 7.
+            6.3 If 25 ≤ BMI < 29.9, display "You are overweight!"
+                go to step 7.
+            6.4 If BMI ≥ 30, display "You are obese!"  
+               
+         7.increment the counter (i++)       
+         8.check wether the counter is less than or equals to num     
+            8.1 if i<=num,
+                go to step 4.
+        9.end the program. 
+        
+              
+# Flowchart
 
 ```mermaid
 flowchart TD
