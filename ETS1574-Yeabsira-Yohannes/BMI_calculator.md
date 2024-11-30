@@ -6,7 +6,7 @@ calculate the Body Mass Index (BMI) for multiple people, determine their weight 
             Weight in kilograms (weight).
             Height in meters (height).
 
-   2. Processing:
+  2. Processing:
         Calculate BMI using the formula:
         BMI = weight / (height * height)
         Compare the calculated BMI against predefined ranges to determine the weight category:
@@ -15,26 +15,34 @@ calculate the Body Mass Index (BMI) for multiple people, determine their weight 
             25 ≤ BMI < 29.9: Overweight
             BMI ≥ 30: Obese
 
-    3.Outputs:
+  3.Outputs:
         Display the BMI for each individual.
         Provide feedback on their weight category.
 
+## algorithm design
+         ### pseudocode
+         1.start the program.
+         2.read the number of person as num.
+         3.declare and initalize the counter to 1(i=1).
+         4.read the the weight and height.
+         5.calculate the BMI as BMI= weight/(height*height).
+         6.check the BMI,
+            6.1 if the BMI is b/n 18.5 and 24.9(BMI>=18.5 and BMI<=24.9)
+                print BMI and "normal".
+                go to step 7.
+            6.2 if the BMI is greater than 25(BMI>25)
+                print BMI and "overweight".
+                go to step 7.
+            6.3 else 
+                print BMI and "underweight".
+                go to step 7.
+         7.increment the counter (i++)       
+         8.check wether the counter is less than or equals to num     
+            8.1 if i<=num,
+                go to step 4.
+        9.end the program.
 
 
-# Algorithm
-step 1: Start.
-step 2: Read the number of people (num).
-step 3: Declare the counter to 1 to num:
-step 4: Input their weight in kilograms (weight) and height in meters (height)..
-step 5: Calculate BMI : BMI=weight/(height*height).
-step 6: Output the calculated BMI and Determine the weight category:
-             step 6.1: If BMI < 18.5, display "You are underweight!"
-             step 6.2: If 18.5 ≤ BMI ≤ 24.9, display "You are in normal weight!"
-             step 6.3: If 25 ≤ BMI < 29.9, display "You are overweight!"
-             step 6.4: If BMI ≥ 30, display "You are obese!"
-
-                   
-step 4: End.
 
 # BMI Calculation and Evaluation Flowchart
 
