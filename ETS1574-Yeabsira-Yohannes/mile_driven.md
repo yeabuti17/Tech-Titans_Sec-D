@@ -19,10 +19,11 @@
     step 4.print the total miles.
     step 5.end the program.
 
-    # Flowchart
-flowchart 
-id1([Start])-->id2[/fuel tank's capacity in gallons/]
-id2-->id3[/milage in miles per gallon/]
-id3-->id4[Calculate total miles = fuel capacity * miles per gallon]
-id4-->id5[/Distance/]
-id5-->id6([End])
+## Fuel Mileage Calculation Flowchart
+
+```mermaid
+flowchart TD
+    Start([Start]) --> InputData[/Read fuel capacity and miles per gallon/] 
+    InputData --> Calculate[Calculate total miles = fuel capacity * miles per gallon]
+    Calculate --> OutputData[/Print total miles/]
+    OutputData --> End([End])
