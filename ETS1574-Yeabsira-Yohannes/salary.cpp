@@ -5,7 +5,7 @@ int main() {
     double weekly_working_hours, bouns_rate_per_hour, base_salary, tax_deduction, pension_deduction, bouns_payment, gross_salary, net_salary;
     string employee_name;
 
-    cout << "Enter your name: ";
+    cout << "Enter employee name: ";
     cin >> employee_name;
 
     cout << "Enter base salary in birr: ";
