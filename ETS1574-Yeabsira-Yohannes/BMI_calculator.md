@@ -38,7 +38,7 @@ Calculate the Body Mass Index (BMI) for multiple person and determine their weth
 ```mermaid
 flowchart TD
     Start([Start]) --> InputData[/Read the number of persons as num/]
-    InputData --> InitializeCounter[ counter i = 1 ]
+    InputData --> InitializeCounter[ Declare and intialize counter i = 1 ]
     InitializeCounter --> ReadData[/Read weight and height/]
     ReadData --> CalculateBMI[Calculate BMI = weight / height * height ]
     CalculateBMI --> CheckBMI{Is BMI between 18.5 and 24.9?}
@@ -49,6 +49,7 @@ flowchart TD
     NormalBMI --> IncrementCounter[Increment counter i++ ]
     OverweightBMI --> IncrementCounter
     UnderweightBMI --> IncrementCounter
+    IncrementCounter --> CheckCounter{Is i <= num?}
     CheckCounter -->|Yes| ReadData
     CheckCounter -->|No| End([End])
 
