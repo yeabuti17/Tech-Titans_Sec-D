@@ -20,7 +20,6 @@ Calculate the Body Mass Index (BMI) for multiple person and determine their weth
 
 ## algorithm design 
 
-         #pseudocode
          1.start
          2.read the number of people as num.
          3.declare the counter to 1(i=1).
