@@ -1,6 +1,6 @@
-### problem analysis
+### Problem analysis
 
-   ## Inputs:
+   ** Inputs**:
     1.fuel capacity in gallon.
     2.miles pergallon.
 
