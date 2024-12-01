@@ -21,10 +21,10 @@ int main() {
     seconds = total_time_seconds % 60;
 
     cout << "Time to transmit the file: " 
-         << days << " days, " 
-         << hours << " hours, " 
-         << minutes << " minutes, " 
-         << seconds << " seconds." << endl;
+    cout << days << " days, " 
+    cout << hours << " hours, " 
+    cout << minutes << " minutes, " 
+    cout << seconds << " seconds." << endl;
 
     return 0;
 }
