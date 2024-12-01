@@ -18,7 +18,7 @@ Calculate the Body Mass Index (BMI) for multiple person and determine their weth
         -Output the BMI for each individual.
         -Provide feedback on their weight category.
 
-## algorithm design 
+## Algorithm design 
 
          1.start
          2.read the number of people as num.
