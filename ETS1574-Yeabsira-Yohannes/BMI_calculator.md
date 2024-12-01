@@ -1,4 +1,4 @@
-# Problem analysis#
+## Problem analysis
 Calculate the Body Mass Index (BMI) for multiple person and determine their wether the person in in normal weight, under weight,over weight.
   1. **Inputs**:
         _The number of people their bmi  to be calculated ('num').
