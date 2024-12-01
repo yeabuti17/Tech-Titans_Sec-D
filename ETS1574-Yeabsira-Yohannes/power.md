@@ -1,12 +1,12 @@
-    ## problem analysis
-       ###  inputs:
+    ### problem analysis
+       # Inputs:
         1.Base number: can be positive, negative, or zero.
         2.power number or exponent: A non-negative integer.
 
-        ### output:
+       # Output:
         1.The value of x raised to the power y.
 
-       ###  oprations:
+       # Oprations:
         1.declare a variable to store base , exponent and the power.
         2.read the inputs.
         3.calculate the power as **power = base^exponent.**
