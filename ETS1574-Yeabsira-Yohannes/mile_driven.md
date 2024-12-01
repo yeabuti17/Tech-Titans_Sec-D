@@ -1,13 +1,13 @@
 ### Problem analysis
 
-   ** Inputs :**
+   # Inputs :
     1.fuel capacity in gallon.
     2.miles pergallon.
 
-   ## output:
+   # output:
     1.total miles an automobile can be driven without refueling.
 
-   ## opration:
+   # opration:
     1.declare variables for fuel capacity,milesper gallon and total miles before refueling.
     2.read inputs.
     3.calculate the total miles before refueling as **total miles = fuelcapacity * miles pergallon**.
