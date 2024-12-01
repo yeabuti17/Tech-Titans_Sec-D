@@ -13,11 +13,11 @@
     3.calculate the total miles before refueling as **total miles = fuelcapacity * miles pergallon**.
     4.print the total miles.
 ### Algortihm design
-    step 1.start the program.
-    step 2.read the fuel capacity and miles pergallon.
+    step 1.start
+    step 2.Input the fuel capacity and miles pergallon.
     step 3.calculate the total miles as **total miles = fuel capacity * miles pergallon**.
     step 4.print the total miles.
-    step 5.end the program.
+    step 5.end 
 
 ### Flowchart
 
