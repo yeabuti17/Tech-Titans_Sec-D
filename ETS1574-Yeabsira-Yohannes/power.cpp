@@ -1,19 +1,19 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
+
 int main() {
- int x,y, product = 1;
- cout << "enter the base number: ";
- cin >> x;
- cout << "enter the power number: ";
- cin >> y;
- if (y < 0) {
-        cout << "Error: The power number must be a non-negative integer." << endl;
-        return 1; 
-    }
-  for (int i = 1; i <= y; i++) {
-     product *= x;
- }
- cout << "the result is " << product;
+    double base,exponent, result;
+
+    cout << "Enter the base of a number: ";
+    cin >> base;
+
+    cout << "Enter the exponent: ";
+    cin >> power;
+ 
+    result = pow(base, exponent);
+
+    cout << "The result is " << result << endl;
 
     return 0;
 }
