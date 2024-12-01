@@ -3,10 +3,12 @@ using namespace std;
 int main() {
   
  float gallon_capacity, milesPerGallon, distance;
- cout << "input the capacity in gallons of your fuel tank: ";
+ cout << "capacity in gallons of an autombile: ";
  cin >> gallon_capacity;
- cout << "input how many miles the car can travel per gallon of gas: ";
+  
+ cout << "how many miles an autombile can travel per gallon of gas: ";
  cin >> milesPerGallon;
+  
  distance = gallon_capacity * milesPerGallon;
  cout << "The car can travel " << distance << " miles without refueling." << endl;
 
