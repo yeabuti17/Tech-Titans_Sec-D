@@ -18,8 +18,9 @@ Calculate the Body Mass Index (BMI) for multiple person and determine their weth
         -Output the BMI for each individual.
         -Provide feedback on their weight category.
 
-## algorithm design ##
-         **pseudocode**
+## algorithm design 
+
+         #pseudocode
          1.start
          2.read the number of people as num.
          3.declare the counter to 1(i=1).
@@ -33,7 +34,7 @@ Calculate the Body Mass Index (BMI) for multiple person and determine their weth
          7.end the program. 
         
               
-# Flowchart
+## Flowchart
 
 ```mermaid
 flowchart TD
