@@ -1,8 +1,8 @@
 ### Problem analysis
 
-   # Inputs :
-    1.fuel capacity in gallon.
-    2.miles pergallon.
+   1.**Inputs** :
+    - fuel capacity in gallon.
+    - miles pergallon.
 
    # output:
     1.total miles an automobile can be driven without refueling.
