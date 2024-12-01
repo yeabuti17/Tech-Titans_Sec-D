@@ -1,9 +1,9 @@
 ### Problem Analysis
- ## Input
+  # Input
    - file_size: The size of the file in bytes (a positive number).
    
    
- ## Opration
+  # Opration
    - Calculate Total Transmission Time
    - Total Time in Seconds: **total_time_seconds= file size / transmission_rate**
    - Conversion to Days, Hours, Minutes, and Seconds:
@@ -14,7 +14,7 @@
    - **minutes = remaining_seconds / 60**
    - **seconds = remaining_seconds % 60**
 
- ## Output
+  # Output
    - time taken to transfer file in days, hours, minutes and seconds.
 
 
